@@ -1,0 +1,190 @@
+/*Geral*/
+@font-face{
+	font-family: "IndieFlower";
+	src: url(fonte/IndieFlower.ttf) ;
+}
+
+html{
+	font-family: "IndieFlower";
+	color:#EEE9E9;
+
+}
+
+body{
+	background-image: url("imgs/fundo2.jpg");
+	background-repeat: no-repeat;
+	overflow: auto;
+	background-color: black;
+}
+
+a{	transition: .5s;
+	text-decoration: none;
+}
+
+/*Barra lateral*/
+.logo{position: relative;
+	
+	animation-name: ;
+	animation-duration: 2s;
+}
+
+#menu{
+	position: relative; 
+	right: 10px;
+	bottom: 20px;
+	font-size: 20px;
+}
+.item{
+	padding: 15px;
+	right: 20px;
+ 	list-style:none;
+	position: relative;
+}
+
+#menu a{
+	color:#EEE9E9;
+}
+
+#menu a:hover{
+	font-size: 25px;
+}
+.img{
+	top: 30px;
+	position: relative;
+}
+hr {
+ 	border: 0;
+  	border-top: 1px solid #CCC;
+ 	 position: relative;
+ 	 bottom: 10px;
+ 	 right: 20px;
+}
+
+aside{
+	width: 200px;
+	height:100%;
+	right: 9px;
+	position: relative;
+	background-color:#8B1A1A;
+	border-top-right-radius: 50%;
+	bottom: 220px;
+}
+
+.barra-lateral{position: fixed;
+z-index: 1;
+}
+
+/*Bloco do meio*/
+.centro h1{
+	text-align: center;
+	font-size: 50px;
+	bottom:240px;
+	position: relative;
+}
+
+h3{
+	text-align: center;
+	font-size: 30px;
+	bottom:260px;
+	position: relative;
+}
+
+.bloco-meio{
+	position: relative;
+	bottom: 20px;
+	left:320px;
+	background-color: #363636;
+	width: 750px;
+	height: 250px;
+	opacity: 0.5;
+	border-top-right-radius: 70%;
+	border-bottom-left-radius:70%;
+}
+.centro{position: relative;
+top:100px;
+}
+
+section{left: 50px;
+	bottom: 30px;
+	position: relative;
+}
+
+/*Barra social*/
+.social{
+	height: 200px;
+	width: 200px;
+	background-color: #8B1A1A;
+	position: relative;
+	left: 1150px;
+	bottom: 100px;
+	border-radius:50%;
+}
+
+.rede-social{
+	display: inline-block;
+	position: relative;
+	padding: 1px;
+	top: 110px;
+	right: 20px;
+}
+/*Produtos*/
+.produtos-cafe{
+top: 150px;
+position: relative;
+}
+
+.cupcakes{
+	position: relative;
+	border-radius: 100%;
+	left: 150px;
+	display: block;
+	float: left;
+	padding-top: 1px;
+}
+
+.info-cupcakes{
+	position: relative;
+	width:400px;
+	float: left;
+	left: 170px;
+
+
+}
+
+.paes{
+	position: relative;
+	float: right;
+	top: 50px;
+	border-radius: 100%;
+	
+
+}
+
+.info-paes{
+	position: relative;
+	float: right;
+	width: 400px;
+	padding-top: 50px;
+	right: 15px;
+}
+
+.bebidas{
+	position: relative;
+	float: left;
+	top: 40px;
+	left: 150px;
+	border-radius: 100%;
+}
+
+.info-bebidas{
+	position: relative;
+	float: left;
+	width: 400px;
+	padding-top: 50px;
+	left: 170px;
+}
+.hover:hover{
+display: block;
+opacity: 0.3;
+transition: 1s;
+}
